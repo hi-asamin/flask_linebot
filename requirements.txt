@@ -1,11 +1,2 @@
-Flask
-gevent
-geventwebsocket
-greenlet
-gunicorn
-itsdangerous
-Jinja2
-MarkupSafe
-redis
-Werkzeug
-line-bot-sdk
+Flask==1.0.2
+line-bot-sdk==1.8.0

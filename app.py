@@ -11,8 +11,8 @@ from linebot.models imoprt (
 
 app = Flask(__name__)
 
-ACCESS_TOKEN = "a"
-SECRET = "a"
+ACCESS_TOKEN = os.environ["ACCESS_TOKEN"]
+SECRET = os.environ["SECRET"]
 
 line_bot_api = LineBotApi(ACCESS_TOKEN)
 handler = WebhookHandler(SECRET)

@@ -1,2 +1,1 @@
-web:gunicornapp:app
-
+web: python app.py
