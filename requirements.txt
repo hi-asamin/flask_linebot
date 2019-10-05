@@ -1,5 +1,4 @@
 Flask
-FlaskSockets
 gevent
 geventwebsocket
 greenlet
