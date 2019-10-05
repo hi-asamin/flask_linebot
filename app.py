@@ -12,7 +12,7 @@ from linebot.models imoprt (
 app = Flask(__name__)
 
 ACCESS_TOKEN = "a"
-SECRET = ""
+SECRET = "a"
 
 line_bot_api = LineBotApi(ACCESS_TOKEN)
 handler = WebhookHandler(SECRET)
