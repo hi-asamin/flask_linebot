@@ -11,7 +11,7 @@ from linebot.models imoprt (
 
 app = Flask(__name__)
 
-ACCESS_TOKEN = ""
+ACCESS_TOKEN = "a"
 SECRET = ""
 
 line_bot_api = LineBotApi(ACCESS_TOKEN)
